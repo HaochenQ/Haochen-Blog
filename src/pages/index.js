@@ -39,7 +39,7 @@ function Home() {
     >
       <Grid container spacing={2} className="hero">
         {/*Personal Intro */}
-        <Grid item lg={6} style={{ padding: 10 }} className="homeIntro">
+        <Grid item lg={6} className="homeIntro">
           <animated.div style={animatedTexts[0]}>
             <Typography variant="h2" gutterBottom>
               Hello! I am
