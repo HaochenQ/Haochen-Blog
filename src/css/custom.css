@@ -7,13 +7,13 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
+  --ifm-color-primary: #007be2;
+  --ifm-color-primary-dark: #119cc5;
+  --ifm-color-primary-darker: #05879d;
+  --ifm-color-primary-darkest: #007a87;
+  --ifm-color-primary-light: #6dc8f2;
+  --ifm-color-primary-lighter: #c6ebfc;
+  --ifm-color-primary-lightest: #f2fbff;
   --ifm-code-font-size: 95%;
 }
 
@@ -22,4 +22,66 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+html {
+  --post-title-color: #313131;
+  --post-pub-date-color: #8c8c8c;
+  --divider-color: #ebebeb;
+}
+
+html[data-theme="dark"] {
+  --post-title-color: white;
+  --post-pub-date-color: var(--ifm-color-gray-100);
+  --divider-color: #353535;
+  --ifm-toc-border-color: #313131;
+}
+
+.hero {
+  height: calc(100vh - 60px);
+  width: 100vw;
+  margin: 0;
+  padding: 35px;
+  background-image: linear-gradient(
+      40deg,
+      rgba(255, 255, 255, 0.8) 62%,
+      rgba(0, 132, 255, 0.1)
+    ),
+    url("/img/hero.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+}
+
+html[data-theme="dark"] .hero {
+  background-image: linear-gradient(
+      20deg,
+      var(--ifm-background-color) 40%,
+      rgba(18, 55, 105, 0.85)
+    ),
+    url("/img/hero.svg");
+}
+
+.intro__name {
+  color: var(--ifm-color-primary);
+}
+
+.footer {
+  margin-top: 4em;
+}
+@media (max-width: 1024px) {
+  .hero {
+    grid-template-columns: 1fr;
+    height: auto;
+    background-position: top;
+  }
+  .bloghome__intro {
+    padding: 0em var(--ifm-spacing-horizontal);
+  }
+
+  .bloghome__image {
+    width: 90%;
+  }
 }

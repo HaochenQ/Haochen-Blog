@@ -14,10 +14,18 @@
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.69",
     "@docusaurus/preset-classic": "2.0.0-alpha.69",
+    "@fortawesome/fontawesome-svg-core": "^1.2.32",
+    "@fortawesome/free-brands-svg-icons": "^5.14.0",
+    "@fortawesome/free-regular-svg-icons": "^5.14.0",
+    "@fortawesome/free-solid-svg-icons": "^5.14.0",
+    "@fortawesome/react-fontawesome": "^0.1.11",
+    "@material-ui/core": "^4.11.1",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
+    "fontsource-roboto": "^3.0.3",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "react-spring": "^8.0.27"
   },
   "browserslist": {
     "production": [
