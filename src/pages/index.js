@@ -37,9 +37,9 @@ function Home() {
       title={` ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <Grid container spacing={2} className="hero">
+      <Grid container spacing={2} style={{ padding: "5%" }} className="hero">
         {/*Personal Intro */}
-        <Grid item lg={6} className="homeIntro">
+        <Grid item xs={12} lg={6} className="homeIntro">
           <animated.div style={animatedTexts[0]}>
             <Typography variant="h2" gutterBottom>
               Hello! I am
@@ -79,7 +79,7 @@ function Home() {
           <SocialLinks animatedProps={animatedTexts[4]} />
         </Grid>
 
-        <Grid item lg={6} className="homeImg">
+        <Grid item xs={12} lg={6} className="homeImg">
           <animated.img src="/img/programming.svg" style={animatedHero} />
         </Grid>
       </Grid>
