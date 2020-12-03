@@ -17,12 +17,12 @@ module.exports = {
         src: "img/haochen.logo.svg",
       },
       items: [
-        {
-          to: "docs/",
-          activeBasePath: "docs",
-          label: "Docs",
-          position: "left",
-        },
+        // {
+        //   to: "docs/",
+        //   activeBasePath: "docs",
+        //   label: "Docs",
+        //   position: "left",
+        // },
         { to: "blog", label: "Blog", position: "right" },
         {
           href: "https://github.com/HaochenQ/Haochen-Blog",
@@ -35,7 +35,7 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Docusaurus",
           items: [
             {
               label: "Style Guide",
