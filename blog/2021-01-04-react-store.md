@@ -10,12 +10,12 @@ tags: [react, contentful, furniture]
 
 # React Furniture Stor - Cozy Space
 
-A online furniture store built with React and React hooks(useReduce and useContext).<be/>
+A online furniture store built with React and React hooks(useReduce and useContext).
 
 <!--truncate-->
 
 Design your dream home with our various morden furnitures.
-</br>
+
 Try the demo [here](https://www.cozyspace.co).
 
 ## Authentication with Auth0
