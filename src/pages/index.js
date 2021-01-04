@@ -48,7 +48,7 @@ function Home() {
           </animated.div>
           <animated.div style={animatedTexts[1]}>
             <Typography variant="body1">
-              A Melbourne University graduate who has a greate passion on web
+              A Melbourne University graduate who has a great passion for web
               development. While keeping updated with the most recent
               technologies, I always seek to improve and grow as a professional
               full-stack web developer as well as a person.

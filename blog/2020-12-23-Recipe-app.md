@@ -14,6 +14,8 @@ Find your favorite food recipe! Click [here](https://recipe-app.haochenq.vercel.
 
 > Powered by EDAMAM
 
+<!--truncate-->
+
 ## How to Use
 
 Search by the food type like pizza, noodles or even the flavour of food you like!<br/>
@@ -22,4 +24,4 @@ Simply type the keywords in the search bar and click the seach button, your rece
 
 ## Screen shot
 
-![screenshot](https://github.com/HaochenQ/Recipe_App/blob/main/public/recipe-app.png)
+![screenshot](https://github.com/HaochenQ/Haochen-Blog/blob/main/static/files/Recipe-hub.png)
