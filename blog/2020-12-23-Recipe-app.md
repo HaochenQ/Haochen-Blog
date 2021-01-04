@@ -24,4 +24,4 @@ Simply type the keywords in the search bar and click the seach button, your rece
 
 ## Screen shot
 
-![screenshot](https://github.com/HaochenQ/Haochen-Blog/blob/main/static/files/Recipe-hub.png)
+![screenshot](../static/files/Recipe-hub.png)

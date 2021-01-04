@@ -24,4 +24,4 @@ Simple sign up with your email or google account.
 
 ## A ScreenShot
 
-![screenshot](https://github.com/HaochenQ/Haochen-Blog/blob/main/static/files/furniture-store.png)
+![screenshot](../static/files/furniture-store.png)
