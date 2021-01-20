@@ -10,7 +10,7 @@ const Projects = () => {
       title: "Cozy Space",
       github: "https://github.com/HaochenQ/React-Furniture-Store",
       url: "https://cozyspace.co",
-      image: "../static/files/furniture-store.png",
+      image: "../../static/files/furniture-store.png",
       index: 0,
     },
 
@@ -21,7 +21,7 @@ const Projects = () => {
       title: "Find your recipe",
       github: "https://github.com/HaochenQ/React-Furniture-Store",
       url: "https://recipe-app.haochenq.vercel.app/",
-      image: "../static/files/Recipe-hub.png",
+      image: "../../static/files/Recipe-hub.png",
       index: 1,
     },
     {
@@ -31,7 +31,7 @@ const Projects = () => {
       title: "Django Blog",
       github: "https://github.com/HaochenQ/Django-blog",
       url: "https://quiet-escarpment-41189.herokuapp.com/",
-      image: "../static/files/django-blog.png",
+      image: "../../static/files/django-blog.png",
       index: 2,
     },
   ];
