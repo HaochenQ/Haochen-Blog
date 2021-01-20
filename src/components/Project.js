@@ -7,7 +7,7 @@ const Project = ({ description, title, github, stack, url, image, index }) => {
   return (
     <article className="work">
       <div className="work-img" onClick={() => window.open(url)}>
-        {image && <img src={useBaseUrl(image)} className="image" />}
+        {image && <img src={require(image)} className="image" />}
         <div className="img-mask"></div>
       </div>
       <div className="work-info">
