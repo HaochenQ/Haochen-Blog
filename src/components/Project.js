@@ -1,13 +1,13 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
-
+import useBaseUrl from "@docusaurus/useBaseUrl";
 const Project = ({ description, title, github, stack, url, image, index }) => {
   return (
     <article className="work">
       <div className="work-img" onClick={() => window.open(url)}>
-        {image && <img src={image} className="image" />}
+        {image && <img src={useBaseUrl(image)} className="image" />}
         <div className="img-mask"></div>
       </div>
       <div className="work-info">
