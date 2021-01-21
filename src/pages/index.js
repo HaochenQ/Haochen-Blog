@@ -13,6 +13,7 @@ import resume from "../../static/files/resume.pdf";
 import Project from "../components/Project";
 import Projects from "../components/Projects";
 import Contact from "../components/Contact";
+import Experience from "../components/Experience";
 function Home() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
@@ -85,6 +86,9 @@ function Home() {
         <Grid item xs={12} lg={6} className="homeImg">
           <animated.img src="/img/programming.svg" style={animatedHero} />
         </Grid>
+      </Grid>
+      <Grid>
+        <Experience />
       </Grid>
       <Grid>
         <Projects />
