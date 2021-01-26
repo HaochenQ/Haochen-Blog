@@ -35,18 +35,31 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docusaurus",
+          title: "Social Media",
           items: [
             {
-              label: "Style Guide",
-              to: "docs/",
+              label: "Linkedin",
+              href: "https://www.linkedin.com/in/haochen-qi-a36393171/",
             },
             {
-              label: "Second Doc",
-              to: "docs/doc2/",
+              label: "Facebook",
+              href: "https://www.facebook.com/haochen.qi.520",
             },
           ],
         },
+        // {
+        //   title: "Docusaurus",
+        //   items: [
+        //     {
+        //       label: "Style Guide",
+        //       to: "docs/",
+        //     },
+        //     {
+        //       label: "Second Doc",
+        //       to: "docs/doc2/",
+        //     },
+        //   ],
+        // },
         // {
         //   title: "Community",
         //   items: [
@@ -78,7 +91,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Haochen|Blog, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Haochen|Blog. Built with Docusaurus.`,
     },
   },
   presets: [
