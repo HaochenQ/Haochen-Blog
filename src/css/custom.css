@@ -8,12 +8,12 @@
 /* You can override the default Infima variables here. */
 :root {
   --ifm-color-primary: #007be2;
-  --ifm-color-primary-dark: #119cc5;
-  --ifm-color-primary-darker: #05879d;
-  --ifm-color-primary-darkest: #007a87;
+  --ifm-color-primary-dark: #175ebb;
+  --ifm-color-primary-darker: #06508d;
+  --ifm-color-primary-darkest: #013966;
   --ifm-color-primary-light: #6dc8f2;
   --ifm-color-primary-lighter: #c6ebfc;
-  --ifm-color-primary-lightest: #f2fbff;
+  --ifm-color-primary-lightest: #f3fcff;
   --ifm-code-font-size: 95%;
 
   /* darkest grey - used for headings */
@@ -23,7 +23,7 @@
   --ifm-color-grey-4: hsl(209, 28%, 39%);
   /* grey used for paragraphs */
   --ifm-color-grey-5: hsl(210, 22%, 49%);
-  --ifm-color-grey-7: hsl(209, 87%, 40%);
+  --ifm-color-grey-7: hsl(209, 30%, 30%);
   --ifm-color-grey-8: hsl(210, 31%, 80%);
   --ifm-color-grey-9: hsl(212, 33%, 89%);
   --ifm-color-grey-10: hsl(210, 36%, 96%);
@@ -63,7 +63,8 @@ html[data-theme="dark"] {
 }
 
 .hero {
-  height: calc(100vh - 45px);
+  /* height: calc(100vh - 45px); */
+  height: auto;
   width: 100vw;
   margin: 0;
   background-image: linear-gradient(
@@ -157,9 +158,9 @@ html[data-theme="dark"] .projects {
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.6;
+  opacity: 0.7;
   transition: var(--transition);
-  background-color: var(--ifm-color-grey-7);
+  background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
 }
 .work:hover .img-mask {
   cursor: pointer;
@@ -192,7 +193,7 @@ html[data-theme="dark"] .work-info {
 }
 .work-desc {
   word-spacing: 5px;
-  color: var(--ifm-color-grey-3);
+  color: var(--ifm-color-grey-2);
 }
 .work-stack {
   margin-bottom: 1rem;
@@ -201,7 +202,7 @@ html[data-theme="dark"] .work-info {
 .about-stack span {
   display: inline-block;
   background: var(--ifm-color-grey-9);
-  color: var(--ifm-color-grey-5);
+  color: var(--ifm-color-grey-3);
   margin-right: 0.5rem;
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
@@ -302,7 +303,6 @@ html[data-theme="dark"] .contact-form {
 .contact-form h3 {
   font-size: 1.8rem;
   padding-top: 1.25rem;
-  color: var(--ifm-color-grey-2);
 }
 .form-group {
   padding: 1rem 1.5rem;
@@ -324,7 +324,7 @@ html[data-theme="dark"] .contact-form {
   letter-spacing: var(--spacing);
 }
 .submit-btn {
-  background-color: var(--ifm-color-primary-dark);
+  background-color: var(--ifm-color-primary);
   text-transform: uppercase;
   font-size: 1rem;
   color: var(--ifm-white);
@@ -340,7 +340,7 @@ html[data-theme="dark"] .contact-form {
 }
 .submit-btn:hover {
   cursor: pointer;
-  background-color: var(--ifm-color-primary-darker);
+  background-color: var(--ifm-color-primary-dark);
 }
 
 /*
@@ -349,7 +349,7 @@ experiences
 ===============
 */
 .experience {
-  padding: 3rem 0;
+  padding: 6rem 0;
   background-color: var(--ifm-color-primary-lightest);
 }
 html[data-theme="dark"] .experience {
@@ -362,7 +362,6 @@ html[data-theme="dark"] .experience {
   max-width: var(--max-width);
 }
 .experience-title {
-  padding-top: 3rem;
   font-size: 2.5rem;
   text-align: center;
 }
@@ -448,9 +447,9 @@ html[data-theme="dark"] .active-btn {
     margin-bottom: 1rem;
   }
   .active-btn {
-    box-shadow: -2px 0 var(--ifm-color-primary-light);
+    box-shadow: -2px 0 var(--ifm-color-primary-dark);
   }
   .experience-btn:hover {
-    box-shadow: -2px 0 var(--ifm-color-primary-light);
+    box-shadow: -2px 0 var(--ifm-color-primary-Dark);
   }
 }

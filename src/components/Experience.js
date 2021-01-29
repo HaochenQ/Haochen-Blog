@@ -19,6 +19,7 @@ const experience = [
     desc: {
       1: "Learnt modern web development and got familar with several modern web framworks.",
       2: "Refined web development skills with hands on projects",
+      3: "Excelled in user experience and user interfaces.",
     },
   },
   {
@@ -26,8 +27,9 @@ const experience = [
     position: "Front-End Developer Intern",
     date: "March 2020 - July 2020 ",
     desc: {
-      1: "Developed several reusable React compoents for our team.",
+      1: "Implemented reusable components which helped save development time and budget for our team.",
       2: "Involved in the planning and web design of a new project, designed the structure of the website with React and Material UI.",
+      3: "Collaborated with product team members to implement new feature development.",
     },
   },
 ];

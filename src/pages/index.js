@@ -72,7 +72,7 @@ function Home() {
           <animated.p style={animatedTexts[3]}>
             <Button
               style={{ textTransform: "none" }}
-              color="primary"
+              color="default"
               variant="outlined"
               size="small"
               href={resume}

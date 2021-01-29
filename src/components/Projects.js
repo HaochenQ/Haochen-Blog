@@ -18,16 +18,16 @@ const Projects = () => {
       stack: ["react", "recipe", "Restful API"],
       description:
         "Find the recipe you need on this recipe web app, simply by typing in the keywords like 'beef soap' or 'korean food'. Follow the instructions and make food for you and your family.",
-      title: "Find your recipe",
+      title: "Find Your Recipe",
       github: "https://github.com/HaochenQ/React-Furniture-Store",
       url: "https://recipe-app.haochenq.vercel.app/",
       image: "img/Recipe-hub.png",
       index: 1,
     },
     {
-      stack: ["Django", "Blog", "Backend"],
+      stack: ["Django", "Blog System", "Backend"],
       description:
-        "This is a blog system where you could create and update your account, post and update your own content and view other people's posts. This project is ",
+        "This is a blog system where you could create and update your account, post and update your own content and view other people's posts. This project is built with Django.",
       title: "Django Blog",
       github: "https://github.com/HaochenQ/Django-blog",
       url: "https://quiet-escarpment-41189.herokuapp.com/",
