@@ -34,6 +34,16 @@ const Projects = () => {
       image: "img/django-blog.png",
       index: 2,
     },
+    {
+      stack: ["Mobile APP", "React Native"],
+      description:
+        "DoneWithIt is a cross-platform mobile application built with React Native(expo). It is a place where you can make your old staff become valuable again or get good products at preferential prices.",
+      title: "Done With It",
+      github: "https://github.com/HaochenQ/DoneWithIt",
+      url: "https://expo.io/@haochen/projects/DoneWithIt",
+      image: "img/APP.jpg",
+      index: 3,
+    },
   ];
   return (
     <div className="projects">
