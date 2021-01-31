@@ -108,8 +108,6 @@ module.exports = {
           path: "./blog",
           //routeBasePath: "/",
           showReadingTime: true,
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
