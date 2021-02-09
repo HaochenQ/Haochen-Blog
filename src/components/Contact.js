@@ -1,10 +1,38 @@
-import React from "react";
+import React, { useRef } from "react";
+import { ValidationError, useForm } from "@formspree/react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import { useEffect } from "react";
+
 const Contact = () => {
+  const [state, handleSubmit] = useForm("mbjpwgpo");
+  const formRef = useRef();
+
+  useEffect(() => {
+    if (state.succeeded && !state.submitting) {
+      toast.success("Successfully Submitted!");
+      if (formRef.current !== undefined) {
+        formRef.current.reset();
+      }
+    }
+  }, [state]);
+
   return (
     <section className="contact-page">
+      <ToastContainer
+        position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+      />
       <article className="contact-form">
         <h3>Contact Me</h3>
-        <form action="https://formspree.io/f/mbjpwgpo" method="POST">
+        <form onSubmit={handleSubmit} ref={formRef}>
           <div className="form-group">
             <input
               type="text"
@@ -18,16 +46,31 @@ const Contact = () => {
               name="email"
               className="form-control"
             />
+            <ValidationError
+              field="email"
+              prefix="Email"
+              errors={state.errors}
+            />
             <textarea
               name="message"
               rows="5"
               placeholder="message"
               className="form-control"
             ></textarea>
+            <button
+              type="submit"
+              disabled={state.submitting}
+              className="submit-btn btn"
+            >
+              submit here
+            </button>
+            <div className="form-error">
+              <ValidationError errors={state.errors} />
+            </div>
+            {/* {state.errors.length !== 0 && (
+              <p className="form-error">Ooops! There was an error.</p>
+            )} */}
           </div>
-          <button type="submit" className="submit-btn btn">
-            submit here
-          </button>
         </form>
       </article>
     </section>
