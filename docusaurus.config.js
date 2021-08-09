@@ -6,7 +6,7 @@ module.exports = {
   //onBrokenLinks: "throw",
   //onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "Haochen", // Usually your GitHub org/user name.
+  //organizationName: "Haochen", // Usually your GitHub org/user name.
   projectName: "Haochen-Blog", // Usually your repo name.
   stylesheets: ["https://fonts.font.im/css?family=Raleway:500,700"],
   themeConfig: {
@@ -25,7 +25,7 @@ module.exports = {
         // },
         { to: "blog", label: "Blog", position: "right" },
         {
-          href: "https://github.com/HaochenQ/Haochen-Blog",
+          href: "https://github.com/HaochenQ",
           label: "GitHub",
           position: "right",
         },
@@ -91,7 +91,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Haochen|Blog. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Haochen. Built with Docusaurus.`,
     },
   },
   presets: [
