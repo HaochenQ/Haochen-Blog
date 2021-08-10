@@ -6,10 +6,9 @@ author_title: Full Stack Developer
 author_url: https://github.com/HaochenQ
 author_image_url: https://avatars1.githubusercontent.com/u/44130343?s=400&u=a5a4729addf5c5b972d1d6220546273ff6e00eb4&v=4
 tags: [Node.js, AWS S3, Bucket Operation]
-image:
 ---
 
-![question](../static/img/S3.jpg)
+![question](/img/S3.jpg)
 
 > Amazon Simple Storage Service is storage for the Internet. It is designed to make web-scale computing easier for developers. -- Amazon
 
@@ -19,18 +18,18 @@ Simple Storage Service(S3) is a an object storage service provided by AWS in 200
 
 Our Node Apps often need to store user data like images, audio files, documents ,etc into somewhere secure and easily accessible instead of on local server. This is when S3 comes in as a perfect option. In this blog, we will go through how to upload your files in AWS s3 buckets.
 
-![question](../static/img/bucket.png)
+![question](/img/bucket.png)
 
 ## Create a S3 Bucket
 
 In this section, we will create a bucket on S3 for us to upload files in. To get start, you need to generate AWS Security Key Access Credentials first from your AWS Management console.
 
-![question](../static/img/IAM.png)
+![question](/img/IAM.png)
 
 On the AWS Services panel, find IAM and click to go IAM dashboard. Under the Access Management section, find Users >> Add User.
-![question](../static/img/IAM-user.png)
+![question](/img/IAM-user.png)
 Then follow the steps to create a programmatic access AWS user attached with **AmazonS3FullAccess** policy. _Save your access key ID and secret access key in a secure place as you won't able to check them again._
-![question](../static/img/s3-permission.png)
+![question](/img/s3-permission.png)
 
 Now let us create a bucket with a unique name. Similarly, find S3 On the AWS Services pane. On the dashboard, click **Create bucket** to create a new bucket with proper region and other default settings. After you create a bucket, we need to allow our client application to interact with our bucket. Go to Your Bucket >> Permissions >> Cross-origin resource sharing (CORS). Change the configuration as bellow.
 

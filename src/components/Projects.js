@@ -1,6 +1,6 @@
 import React from "react";
 import Project from "./Project";
-
+import Translate from "@docusaurus/Translate";
 const Projects = () => {
   const works = [
     {
@@ -47,7 +47,9 @@ const Projects = () => {
   ];
   return (
     <div className="projects">
-      <h1 className="recent-projects">Recent Projects</h1>
+      <h1 className="recent-projects">
+        <Translate>Recent Projects</Translate>
+      </h1>
       <div className="underline"></div>
       <div className="section-center projects-center">
         {works.map(

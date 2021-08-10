@@ -1,6 +1,6 @@
 ---
 slug: understand-this-in-one-article
-title: Understanding This, Bind, Call and Apply in JavaScript
+title: 理解 JavaScript 中的 This, Bind, Call 和 Apply
 author: Haochen Qi
 author_title: Full Stack Developer
 author_url: https://github.com/HaochenQ

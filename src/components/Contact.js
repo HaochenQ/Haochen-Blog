@@ -3,6 +3,7 @@ import { ValidationError, useForm } from "@formspree/react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
+import Translate from "@docusaurus/Translate";
 
 const Contact = () => {
   const [state, handleSubmit] = useForm("mbjpwgpo");
@@ -31,7 +32,9 @@ const Contact = () => {
         pauseOnHover
       />
       <article className="contact-form">
-        <h3>Contact Me</h3>
+        <h3>
+          <Translate>Contact Me</Translate>
+        </h3>
         <form onSubmit={handleSubmit} ref={formRef}>
           <div className="form-group">
             <input
@@ -62,7 +65,7 @@ const Contact = () => {
               disabled={state.submitting}
               className="submit-btn btn"
             >
-              submit here
+              <Translate>submit here</Translate>
             </button>
             <div className="form-error">
               <ValidationError errors={state.errors} />

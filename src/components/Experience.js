@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDoubleRight } from "@fortawesome/free-solid-svg-icons";
+import Translate from "@docusaurus/Translate";
 const experience = [
   {
     company: "University of Melbourne",
-    position: "MIT Student",
+    position: "Master of Information Technology",
     date: "July 2018 - July 2020 ",
     desc: {
       1: "Gained knowledge about fundamentals of the fields of Information Technology and Computer Science.",
@@ -14,7 +15,7 @@ const experience = [
   },
   {
     company: "University of North Carolina",
-    position: "Exchange Student",
+    position: "Exchange Graduate",
     date: "August 2019 - December 2019 ",
     desc: {
       1: "Learnt modern web development and got familar with several modern web framworks.",
@@ -39,7 +40,9 @@ function Experience() {
 
   return (
     <section className="experience">
-      <h2 className="experience-title"> Experience</h2>
+      <h2 className="experience-title">
+        <Translate>Experience</Translate>
+      </h2>
       <div className="underline"></div>
       <div className="experiences-center">
         <div className="btn-container">

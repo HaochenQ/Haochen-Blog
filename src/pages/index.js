@@ -3,6 +3,7 @@ import clsx from "clsx";
 import Layout from "@theme/Layout";
 import { Typography, Grid, Button } from "@material-ui/core";
 import Link from "@docusaurus/Link";
+import Translate, { translate } from "@docusaurus/Translate";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 // import styles from "./styles.module.css";
@@ -46,22 +47,24 @@ function Home() {
         <Grid item xs={12} lg={6} className="homeIntro">
           <animated.div style={animatedTexts[0]}>
             <Typography variant="h2" gutterBottom>
-              Hello! I am
+              <Translate>Hello! I am</Translate>
               <span className="intro__name"> {siteConfig.title}</span>
             </Typography>
           </animated.div>
           <animated.div style={animatedTexts[1]}>
             <Typography variant="body1">
-              A Melbourne University graduate who has a great passion for web
-              development. While keeping updated with the most recent
-              technologies, I always seek to improve and grow as a professional
-              full-stack web developer as well as a person.
+              <Translate>
+                A Melbourne University graduate who has a great passion for web
+                development. While keeping updated with the most recent
+                technologies, I always seek to improve and grow as a
+                professional full-stack web developer as well as a person.
+              </Translate>{" "}
             </Typography>
           </animated.div>
           &nbsp;
           <animated.div style={animatedTexts[2]}>
             <Typography variant="h6" gutterBottom>
-              My Skills:
+              <Translate>My Skills:</Translate>
             </Typography>
             <Typography variant="body1" gutterBottom>
               React.js、React Native、Node.js、Material UI、JavaScript、HTML5
@@ -77,14 +80,18 @@ function Home() {
               size="small"
               href={resume}
             >
-              My Resume
+              <Translate>My Resume</Translate>
             </Button>
           </animated.p>
           <SocialLinks animatedProps={animatedTexts[4]} />
         </Grid>
 
         <Grid item xs={12} lg={6} className="homeImg">
-          <animated.img src="/img/programming.svg" style={animatedHero} />
+          {/* <img src={useBaseUrl(image)} className="image" /> */}
+          <animated.img
+            src={useBaseUrl("img/programming.svg")}
+            style={animatedHero}
+          />
         </Grid>
       </Grid>
       <Grid>

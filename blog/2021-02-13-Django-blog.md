@@ -22,4 +22,4 @@ Username: TestUser
 
 Password: testing321
 
-![screenshot](../static/files/django-blog.png)
+![screenshot](/files/django-blog.png)
