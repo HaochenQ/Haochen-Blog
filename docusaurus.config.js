@@ -120,5 +120,13 @@ module.exports = {
   i18n: {
     defaultLocale: "en",
     locales: ["en", "zh-cn"],
+    localeConfigs: {
+      en: {
+        label: "English",
+      },
+      "zh-cn": {
+        label: "中文",
+      },
+    },
   },
 };
