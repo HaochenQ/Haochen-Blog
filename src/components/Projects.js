@@ -9,7 +9,7 @@ const Projects = () => {
         "Cozy Space is an online furniture store for you to design your dream home. You can easily find your favorite piece from our various morden furnitures by using the filter function. It is built with React, React hooks(useReduce and useContext) are utlized to manage the state.",
       title: "Cozy Space",
       github: "https://github.com/HaochenQ/React-Furniture-Store",
-      url: "https://cozyspace.co",
+      url: "https://romantic-brown-45acd5.netlify.app/",
       image: "img/furniture-store.png",
       index: 0,
     },
