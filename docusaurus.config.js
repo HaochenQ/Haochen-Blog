@@ -1,6 +1,8 @@
 module.exports = {
   title: "Haochen",
   tagline: "Learning is a Lifelong Process",
+  //disableTitleTagline: true,
+  //titleDelimiter: "*",
   url: "https://haochenqi.com/",
   baseUrl: "/",
   //onBrokenLinks: "throw",
