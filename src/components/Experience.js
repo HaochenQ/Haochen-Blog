@@ -10,7 +10,7 @@ const experience = [
     desc: {
       1: "Gained knowledge about fundamentals of the fields of Information Technology and Computer Science.",
       2: "In-depth understanding of modern cloud-driven network architecture with practice with Unimelb advanced cloud platform-Nectar.",
-      3: "Acquied a comprehensive understanding of the integration of Machine Learning models and modern Web Development by finishing the graduation project.",
+      3: "Acquired a comprehensive understanding of the integration of Machine Learning models and modern Web Development by finishing the graduation project.",
     },
   },
   {
