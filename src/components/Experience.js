@@ -6,11 +6,11 @@ const experience = [
   {
     company: "University of Melbourne",
     position: "Master of Information Technology",
-    date: "July 2018 - July 2020 ",
+    date: "July 2018 - December 2020 ",
     desc: {
       1: "Gained knowledge about fundamentals of the fields of Information Technology and Computer Science.",
       2: "In-depth understanding of modern cloud-driven network architecture with practice with Unimelb advanced cloud platform-Nectar.",
-      3: "Acquied a comprehensive understanding of the integration of Machine Learning models and modern Web Development by finishing the graduation project.",
+      3: "Acquired a comprehensive understanding of the integration of Machine Learning models and modern Web Development by finishing the graduation project.",
     },
   },
   {
@@ -31,6 +31,16 @@ const experience = [
       1: "Implemented reusable components which helped save development time and budget for our team.",
       2: "Involved in the planning and web design of a new project, designed the structure of the website with React and Material UI.",
       3: "Collaborated with product team members to implement new feature development.",
+    },
+  },
+  {
+    company: "Wicrecend",
+    position: "Azure App Service Engineer",
+    date: "Mid 2021 - till now ",
+    desc: {
+      1: "Learnt the structure of Microsoft Azure App Service/Function App in a depth.",
+      2: "Had put the knowledge regarding App Service/Function App in use helping MS clients empower their bussiness.",
+      3: "Improved the satisfaction of MS clients to Azure Products/Services",
     },
   },
 ];

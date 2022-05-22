@@ -39,7 +39,8 @@ function Home() {
 
   return (
     <Layout
-      title={` ${siteConfig.title}`}
+      //title={` ${siteConfig.title}`}
+      title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
       <Grid container spacing={2} style={{ padding: "5%" }} className="hero">
@@ -49,6 +50,9 @@ function Home() {
             <Typography variant="h2" gutterBottom>
               <Translate>Hello! I am</Translate>
               <span className="intro__name"> {siteConfig.title}</span>
+              {/* <Typography variant="body2">
+                <span>{siteConfig.tagline}</span>
+              </Typography> */}
             </Typography>
           </animated.div>
           <animated.div style={animatedTexts[1]}>
