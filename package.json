@@ -25,7 +25,11 @@
     "@material-ui/core": "^4.11.1",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
+<<<<<<< HEAD
     "dotenv": "^16.0.1",
+=======
+    "docusaurus": "^1.14.7",
+>>>>>>> 59758363a70093543804027a421ca20cc27c3433
     "fontsource-roboto": "^3.0.3",
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
