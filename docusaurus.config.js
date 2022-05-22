@@ -1,8 +1,14 @@
+require("dotenv").config();
 module.exports = {
   title: "Haochen",
   tagline: "Learning is a Lifelong Process",
   url: "https://haochenqi.com/",
   baseUrl: "/",
+  customFields: {
+    // Put your custom environment here
+    formAPI: process.env.FORM_SPREE,
+    test: "test",
+  },
   //onBrokenLinks: "throw",
   //onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",

@@ -4,9 +4,16 @@ import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { useEffect } from "react";
 import Translate from "@docusaurus/Translate";
+import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 
 const Contact = () => {
-  const [state, handleSubmit] = useForm("mbjpwgpo");
+  const {
+    siteConfig: { customFields },
+  } = useDocusaurusContext();
+  const auth = customFields.formAPI;
+
+  console.log(auth);
+  const [state, handleSubmit] = useForm(auth);
   const formRef = useRef();
 
   useEffect(() => {
