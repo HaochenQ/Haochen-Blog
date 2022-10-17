@@ -71,8 +71,8 @@ function Home() {
               <Translate>My Skills:</Translate>
             </Typography>
             <Typography variant="body1" gutterBottom>
-              React.js、React Native、Node.js、Material UI、JavaScript、HTML5
-              etc.
+              React.js, React Native, Node.js, Material UI, JavaScript, HTML5,
+              Azure, etc.
             </Typography>
           </animated.div>
           &nbsp;
