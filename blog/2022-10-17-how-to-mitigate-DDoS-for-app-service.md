@@ -55,7 +55,7 @@ Generally, we all have a custom domain mapped to our App Service app, so we choo
 
 #### DNS Configuration
 
-In terms of the DNS settings, we need to add a CNAME or A record at the DNS provider and map our custom domain to the Application Gateway (Default Domain or Public IP address.) If you would like to use a CNAME record, you need to go to the App GW Public IP on Azure Portal and set up a DNS name lable for this IP. After which, your IP will has a name like yourcustomname.region.cloudapp.azure.com. ![Public IP](/img/PublicIP.jpg)
+In terms of the DNS settings, we need to add a CNAME or A record at the DNS provider and map our custom domain to the Application Gateway (Default Domain or Public IP address.) If you would like to use a CNAME record, you need to go to the App GW Public IP on Azure Portal and set up a DNS name lable for this IP. After which, your IP will has a name like yourcustomname.region.cloudapp.azure.com. ![Public IP](/img/publicIP.jpg)
 
 If you have configured the custom domain directly for your App Service before, remeber to remove your old DNS records. The DNS configuration for the custom domain will be directed towards Application Gateway.
 
