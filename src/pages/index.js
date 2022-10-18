@@ -107,9 +107,9 @@ function Home() {
         <Projects />
       </Grid>
       {/* Contact form */}
-      {/* <Grid>
+      <Grid>
         <Contact />
-      </Grid> */}
+      </Grid>
     </Layout>
   );
 }
