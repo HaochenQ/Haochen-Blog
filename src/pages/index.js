@@ -98,15 +98,18 @@ function Home() {
           />
         </Grid>
       </Grid>
+      {/* Experiences section */}
       <Grid>
         <Experience />
       </Grid>
+      {/* Projects section */}
       <Grid>
         <Projects />
       </Grid>
-      <Grid>
+      {/* Contact form */}
+      {/* <Grid>
         <Contact />
-      </Grid>
+      </Grid> */}
     </Layout>
   );
 }
