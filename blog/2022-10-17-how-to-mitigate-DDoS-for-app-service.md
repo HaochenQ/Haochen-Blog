@@ -1,6 +1,6 @@
 ---
-slug: mitigate-app-service-ddos-attack
-title: How to Mitigate DDoS for Your App Service App
+slug: protect-app-service-from-ddos-attacks
+title: How to Protect Your Azure App Service App from DDoS Attacks
 author: Haochen Qi
 author_title: Full Stack Developer
 author_url: https://github.com/HaochenQ
