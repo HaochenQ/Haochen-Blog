@@ -58,10 +58,10 @@ function Home() {
           <animated.div style={animatedTexts[1]}>
             <Typography variant="body1">
               <Translate>
-                A Melbourne University graduate who has a great passion for web
-                development. While keeping updated with the most recent
-                technologies, I always seek to improve and grow as a
-                professional full-stack web developer as well as a person.
+                An experienced DevOps engineer with solid skills in supporting,
+                automating, and optimizing mission critical deployments.
+                Proficient with various DevOps tools like Terraform, Jenkins,
+                Docker and Kubernetes.
               </Translate>{" "}
             </Typography>
           </animated.div>
@@ -71,8 +71,8 @@ function Home() {
               <Translate>My Skills:</Translate>
             </Typography>
             <Typography variant="body1" gutterBottom>
-              React.js, React Native, Node.js, Material UI, JavaScript, HTML5,
-              Azure, etc.
+              Terraform, Docker, Kubernetes, AWS, JavaScript, Python, Azure,
+              etc.
             </Typography>
           </animated.div>
           &nbsp;

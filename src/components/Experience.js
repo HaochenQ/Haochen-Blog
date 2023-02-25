@@ -9,7 +9,7 @@ const experience = [
     date: "July 2018 - December 2020 ",
     desc: {
       1: "Gained knowledge about fundamentals of the fields of Information Technology and Computer Science.",
-      2: "In-depth understanding of modern cloud-driven network architecture with practice with Unimelb advanced cloud platform-Nectar.",
+      2: "Formed a deep understanding of modern cloud-driven network architecture with hands-on experience.",
       3: "Acquired a comprehensive understanding of the integration of Machine Learning models and modern Web Development by finishing the graduation project.",
     },
   },
@@ -28,19 +28,20 @@ const experience = [
     position: "Front-End Developer Intern",
     date: "March 2020 - July 2020 ",
     desc: {
-      1: "Implemented reusable components which helped save development time and budget for our team.",
-      2: "Involved in the planning and web design of a new project, designed the structure of the website with React and Material UI.",
-      3: "Collaborated with product team members to implement new feature development.",
+      1: "Implemented reusable React components which helped save development time and budget for the development team.",
+      2: "Collaborated with product team members to implement new website features to improve the customers’ experience.",
+      3: "Gained experience by working in the agile/scrum development environment with frequently changing requirements and actively participating in scrum meetings and reviews.",
     },
   },
   {
     company: "Wicrecend",
-    position: "Azure App Service Engineer",
-    date: "Mid 2021 - till now ",
+    position: "Azure Cloud Engineer",
+    date: "Mid 2021 - Jan 2023 ",
     desc: {
-      1: "Learnt the structure of Microsoft Azure App Service/Function App in a depth.",
-      2: "Had put the knowledge regarding App Service/Function App in use helping MS clients empower their bussiness.",
-      3: "Improved the satisfaction of MS clients to Azure Products/Services",
+      1: "Developed a comprehensive understanding of the structure of Azure Services such as App Service, Azure VMs, and Azure SQL Database.",
+      2: "Helped numerous customers resolve the issues and difficulties they encountered using Azure Services throughout the development, CI/CD, and deployment phases.",
+      3: "Provided suggestions and recommendations to help customers to migrate and build robust Cloud-Native apps. ",
+      4: "Boosted customers' confidence and satisfaction towards Azure by effectively connecting the customers with the Product Group in terms of product limitations and emerging issues. ",
     },
   },
 ];
