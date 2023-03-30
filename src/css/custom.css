@@ -380,8 +380,10 @@ html[data-theme="dark"] .experience {
 .btn-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content:flex-start;
   margin-bottom: 4rem;
+  /* flex-wrap: wrap; */
+  overflow:scroll;
 }
 .experience-btn {
   background: transparent;
@@ -452,8 +454,10 @@ html[data-theme="dark"] .active-btn {
     column-gap: 4rem;
   }
   .btn-container {
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
+  
   }
   .experience-btn {
     margin-bottom: 1rem;
