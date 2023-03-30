@@ -12,7 +12,6 @@ const Contact = () => {
   } = useDocusaurusContext();
   const auth = customFields.formAPI;
 
-  console.log(auth);
   const [state, handleSubmit] = useForm(auth);
   const formRef = useRef();
 
