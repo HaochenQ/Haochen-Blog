@@ -43,7 +43,7 @@ function Home() {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      <Grid container spacing={2} style={{ padding: "5%" }} className="hero">
+      <Grid container style={{ padding: "5%" }} className="hero">
         {/*Personal Intro */}
         <Grid item xs={12} lg={6} className="homeIntro">
           <animated.div style={animatedTexts[0]}>
