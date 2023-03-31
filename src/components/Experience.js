@@ -34,7 +34,7 @@ const experience = [
     },
   },
   {
-    company: "Wicrecend",
+    company: "Wicresoft",
     position: "Azure Cloud Engineer",
     date: "Mid 2021 - Jan 2023 ",
     desc: {
